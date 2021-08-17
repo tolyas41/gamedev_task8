@@ -4,7 +4,7 @@
 class Iterator {
 
 public:
-	virtual Matrix& GetFirst() = 0;
-	virtual void GoNext() = 0;
+	virtual Matrix& first() = 0;
+	virtual void next() = 0;
 };
 

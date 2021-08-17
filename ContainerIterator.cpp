@@ -55,12 +55,12 @@ bool ContainerIterator::operator!=(const ContainerIterator& other) const
 	return !(*this == other);
 }
 
-Matrix& ContainerIterator::GetFirst()
+Matrix& ContainerIterator::first()
 {
 	return it_Ptr[0];
 }
 
-void ContainerIterator::GoNext()
+void ContainerIterator::next()
 {
 	it_Ptr++;
 }

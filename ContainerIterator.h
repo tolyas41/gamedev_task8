@@ -26,9 +26,9 @@ public:
 
 	bool operator!=(const ContainerIterator& other) const;
 
-	virtual Matrix& GetFirst() override;
+	virtual Matrix& first() override;
 
-	virtual void GoNext() override;
+	virtual void next() override;
 
 private:
 	Matrix* it_Ptr;
